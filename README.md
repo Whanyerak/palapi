@@ -41,7 +41,7 @@ size
 
 ### L’API doit pouvoir gérer :
 
-GET par id
+GET par id<br>
 GET par name
 GET par type
 
