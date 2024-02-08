@@ -6,37 +6,37 @@ Maintenant que vous savez monter une base mongo sur Docker, vous y connecter ave
 
 ```
 id
-		key
-		name
-		wiki
-		types []
-		suitability []
-			type
-			level
-		drops []
-		skills []
-			level
-			name
-			type
-			cooldown
-			power
-			description
-		stats
-			hp
-			attack
-				melee
-				ranged
-			defense
-			speed
-				ride
-				run
-				walk
-			stamina
-			support
-			food
-		rarity
-		price
-		size
+key
+name
+wiki
+types []
+suitability []
+	type
+	level
+drops []
+skills []
+	level
+	name
+	type
+	cooldown
+	power
+	description
+stats
+	hp
+	attack
+		melee
+		ranged
+	defense
+	speed
+		ride
+		run
+		walk
+	stamina
+	support
+	food
+rarity
+price
+size
 ```
 
 ### L’API doit pouvoir gérer :
@@ -49,6 +49,7 @@ SAVE nouveau Pal
 GET skills d'un Pal
 ADD un skill d'un Pal
 MODIFY un skill d'un Pal
+
 GET types d'un Pal
 ADD type d'un Pal
 REMOVE type d'un Pal
