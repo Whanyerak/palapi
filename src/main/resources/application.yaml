@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: livedemo
+  data:
+    mongodb:
+      database: livedemo
+      uuid-representation: standard
