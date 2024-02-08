@@ -42,21 +42,21 @@ size
 ### L’API doit pouvoir gérer :
 
 GET par id<br>
-GET par name
-GET par type
-
-SAVE nouveau Pal
-GET skills d'un Pal
-ADD un skill d'un Pal
-MODIFY un skill d'un Pal
-
-GET types d'un Pal
-ADD type d'un Pal
-REMOVE type d'un Pal
-
+GET par name<br>
+GET par type<br>
+<br>
+SAVE nouveau Pal<br>
+GET skills d'un Pal<br>
+ADD un skill d'un Pal<br>
+MODIFY un skill d'un Pal<br>
+<br>
+GET types d'un Pal<br>
+ADD type d'un Pal<br>
+REMOVE type d'un Pal<br>
+<br>
 #### BONUS :
-GET x Pal SORTED BY rarity
-GET x Pal SORTED BY price
+GET x Pal SORTED BY rarity<br>
+GET x Pal SORTED BY price<br>
 
 #### BONUS 2 :
 Dockeriser l'app et sa connection à la mongo
