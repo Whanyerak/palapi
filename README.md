@@ -1,8 +1,8 @@
 # Pal API
 
-Mise en pratique API Mongo Docker
+Mise en pratique API JPA
 
-Maintenant que vous savez monter une base mongo sur Docker, vous y connecter avec une appli Spring Boot et interagir avec, votre objectif est de mettre en place une API de gestion de Pals dont les attributs sont :
+Maintenant que vous savez ce qu’est une appli Spring Boot et interagir avec, votre objectif est de mettre en place une API de gestion de Pals dont les attributs sont :
 
 ```
 id
@@ -39,6 +39,18 @@ price
 size
 ```
 
+Votre première étape sera d'importer toutes les data contenues dans le pals.json dans votre base H2 à chaque lancement de l'application.
+Le tout en utilisant Spring Boot et Spring JPA bien sûr.
+
+Vous devrez respecter les principes REST et les 4 types d'opérations : Get, Post, Put, Delete.
+
+Il faudra respecter la séparation des couches grâce à des packages bien nommés.
+Le pattern Controller / Service / Repository (ou DAO) sera attendu au minimum.
+Une architecture en Clean Architecture avec les couches Application / Domain / Infrastructure serait un plus.
+
+Votre code devra être testé unitairement et des tests d'intégration.
+@WebMvc est un plus, mais @SpringBootTest sur les points d'entrées des controlleurs est suffisant. 
+
 ### L’API doit pouvoir gérer :
 
 GET par id<br>
@@ -59,4 +71,4 @@ GET x Pal SORTED BY rarity<br>
 GET x Pal SORTED BY price<br>
 
 #### BONUS 2 :
-Dockeriser l'app et sa connection à la mongo
+Ajouter des test Gerkhin & Cucumber.
