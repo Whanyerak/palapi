@@ -39,16 +39,16 @@ price
 size
 ```
 
-Votre première étape sera d'importer toutes les data contenues dans le pals.json dans votre base H2 à chaque lancement de l'application.
+Votre première étape sera d'importer toutes les data contenues dans le pals.json dans votre base H2 à chaque lancement de l'application.<br>
 Le tout en utilisant Spring Boot et Spring JPA bien sûr.
 
 Vous devrez respecter les principes REST et les 4 types d'opérations : Get, Post, Put, Delete.
 
-Il faudra respecter la séparation des couches grâce à des packages bien nommés.
-Le pattern Controller / Service / Repository (ou DAO) sera attendu au minimum.
+Il faudra respecter la séparation des couches grâce à des packages bien nommés.<br>
+Le pattern Controller / Service / Repository (ou DAO) sera attendu au minimum.<br>
 Une architecture en Clean Architecture avec les couches Application / Domain / Infrastructure serait un plus.
 
-Votre code devra être testé unitairement et des tests d'intégration.
+Votre code devra être testé unitairement et des tests d'intégration.<br>
 @WebMvc est un plus, mais @SpringBootTest sur les points d'entrées des controlleurs est suffisant. 
 
 ### L’API doit pouvoir gérer :
